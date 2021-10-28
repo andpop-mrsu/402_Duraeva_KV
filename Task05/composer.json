@@ -1,0 +1,25 @@
+{
+    "name": "dksenia/tic-tac-toe",
+    "type": "project",
+    "authors": [
+        {
+            "name": "dksenia",
+            "email": "dksenia1612@gmail.com"
+        }
+    ],
+    "description": "",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.11",
+        "gabordemooij/redbean": "dev-master"
+    },
+	"bin": [
+        "bin/tic-tac-toe"
+    ],
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+            "src/Model.php"
+        ]
+    }
+}
