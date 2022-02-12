@@ -1,0 +1,21 @@
+{
+    "name": "labs/task02_1",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Duraeva Ksenia",
+            "email": "dksenia1612@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
