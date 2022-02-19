@@ -6,8 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'be01b9b16925dcb22165c40b46681ac6' => $vendorDir . '/wp-cli/php-cli-tools/lib/cli/cli.php',
-    'a8519417fbee7018a1da1e1ec4f9d53c' => $baseDir . '/src/Controller.php',
-    '71aebd221226c82d3035099fb3e012e1' => $baseDir . '/src/View.php',
-    'dde45b5ef9fb1c94b0d4822ce3f404ae' => $baseDir . '/src/Model.php',
+    'ec07570ca5a812141189b1fa81503674' => $vendorDir . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
+    '320cde22f66dd4f5d3fd621d3e88b98f' => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php',
+    '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+    '3ea96c615bd40c5c22d93fb2028f2c5f' => $baseDir . '/src/index.php',
 );
